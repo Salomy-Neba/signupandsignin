@@ -1,0 +1,56 @@
+body{
+    font-family: sans-serif;
+    
+}
+form{
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    height: 650px;
+    background-color: rgba(137, 43, 226, 0.21);
+    border-radius: 10px;
+    padding: 10px;
+     margin:auto ;
+     margin: 10px;
+    h2{
+        text-align: center;
+    }
+.input_field{
+height: 30px;
+border-radius: 10px;
+text-indent: 10px;
+outline: none;
+}
+input{
+margin: 0px;
+       
+border: 2px solid rgba(0, 0, 0, 0.201);
+    }
+button{
+background-color: rgba(162, 16, 206, 0.299); transition: 0.25s ease-in;
+cursor: pointer;
+}
+border: none;
+    }
+    button:hover{
+        background-color: rgba(137, 43, 226, 0.379);
+    }
+    .survey_label{
+        font-weight: bold;
+    }
+    .row{display: flex;
+    flex-direction: column; align-items: center;
+    gap: 15px;
+    }
+    a{
+        color: rgba(137, 43, 226, 0.717);
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+    }
+    .radio_container{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
